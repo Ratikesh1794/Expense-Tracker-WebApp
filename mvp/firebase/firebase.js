@@ -23,6 +23,13 @@ import { getStorage } from 'firebase/storage';
 // Configure Firebase.
 const firebaseConfig = {
   // Insert your Firebase project's configuration here
+  apiKey: "AIzaSyCBp6s_oZzYd4CrQ06e1ku66UGzi0pf-9s",
+  authDomain: "expense-tracker-6db48.firebaseapp.com",
+  projectId: "expense-tracker-6db48",
+  storageBucket: "expense-tracker-6db48.appspot.com",
+  messagingSenderId: "787504315282",
+  appId: "1:787504315282:web:471e5891c8b3ebd92bdf4b",
+  measurementId: "G-26C5G0RC9E"
 };
 
 export const app = initializeApp(firebaseConfig);
